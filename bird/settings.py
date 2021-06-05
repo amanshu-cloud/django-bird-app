@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'bird_app.apps.BirdAppConfig',
     'django.contrib.auth',
     'widget_tweaks',
+    'django.contrib.postgres',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -78,8 +79,10 @@ WSGI_APPLICATION = 'bird.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'bird2',
+    'USER': 'postgres',
+    'PASSWORD': 'Swapnil@2902',
     }
 }
 AUTH_USER_MODEL = 'bird_app.CustomUser'
