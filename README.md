@@ -1,4 +1,4 @@
-#Bird App
+# Bird App
 
 A simple Twitter clone made with Django and some bootstrap.
 ## Features : 
