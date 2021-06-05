@@ -3,7 +3,7 @@
 A simple Twitter clone made with Django and some bootstrap.
 ## Features : 
 - User Auth with Custom User Model
-- SqLite Backend 
+- Postgres Backend 
 - Paginated posts view
 
 <p float="left">
