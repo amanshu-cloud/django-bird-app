@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul class="list-group">
+  <li class="list-group-item">Username : {{ customUser.username }}</li> 
+  <li class="list-group-item">Name : {{ customUser.name }}</li> 
+  <li class="list-group-item">Age : {{ customUser.age }}</li>
+  <li class="list-group-item">Gender : {{ customUser.gender }}</li>
+  <li class="list-group-item">Country : {{ customUser.country}}</li>
+</ul>
+{% endblock content %}
