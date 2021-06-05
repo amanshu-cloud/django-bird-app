@@ -5,10 +5,11 @@ A simple Twitter clone made with Django and some bootstrap.
 - User Auth with Custom User Model
 - Postgres Backend 
 - Paginated posts view
+- Search Posts by keywords
 
 <p float="left">
 <img src="/assets/homePage.png" >
 &nbsp; &nbsp; &nbsp;
-<img src="/assets/createPost.png" >
+<img src="/assets/searchPost.png" >
 </p>
 
