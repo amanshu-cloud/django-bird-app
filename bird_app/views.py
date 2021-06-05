@@ -19,8 +19,10 @@ class SignUpView(CreateView):
 
 class PostListView(ListView):
     model = Post
-    template_name = 'home.html'
+    queryset = Post.objects.all()
     context_object_name = 'posts'
+    paginate_by = 3
+    template_name = 'home.html'
 
 class PostCreateView(View):
     form_class = PostForm

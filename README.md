@@ -4,6 +4,7 @@ A simple Twitter clone made with Django and some bootstrap.
 ## Features : 
 - User Auth with Custom User Model
 - SqLite Backend 
+- Paginated posts view
 
 <p float="left">
 <img src="/assets/homePage.png" >
