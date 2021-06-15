@@ -9,7 +9,5 @@ A simple Twitter clone made with Django and some bootstrap.
 
 <p float="left">
 <img src="/assets/homePage.png" >
-&nbsp; &nbsp; &nbsp;
-<img src="/assets/searchPost.png" >
 </p>
 
